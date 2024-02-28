@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  /* background color a light red */
+  background-color: #ffe1e1;
+
+  /* Use special font 'Inter', fallback to serif */
+  font-family: "Inter", sans-serif;
+  color: #0f0b0b;
+}
+
+/* All <h1> tag text will be UPPERCASE */
+h1 {
+  text-transform: uppercase;
+}
+
+/* All <h3> tag text will be the color RED and will be aligned to the LEFT*/
+h3 {
+  color: #fd3636;
+  text-align: left;
+}
+
+/* Make all links a hot pink, remove text decoration */
+a {
+  color: #ff008c;
+  text-decoration: none;
+}
+
+/* Any element with the 'black' class will show black text */
+.black {
+  color: #0f0b0b;
+}
+
+/* Anything with the class 'center' will have centered text */
+.center {
+  text-align: center;
+}
+
+/* make width of class chicago (chicago picture) 25% */
+.chicago {
+  width: 25%;
+  padding: 8px;
+}

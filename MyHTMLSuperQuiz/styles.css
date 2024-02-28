@@ -1,0 +1,32 @@
+* {
+  font-family: "Roboto", sans-serif;
+  background-color: #ff8906;
+}
+
+body {
+  padding: 0 16px;
+  color: #f5f0ea;
+}
+
+p {
+  font-size: 16px;
+}
+
+.subtitle {
+  font-size: 20px;
+}
+
+footer {
+  padding: 16px;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#bears {
+  border: 3px solid #f5f0ea;
+  max-width: 300px;
+}
