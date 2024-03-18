@@ -8,13 +8,30 @@ body {
   padding-left: 24px;
 }
 
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 48px;
+}
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+img {
+  width: 160px;
+}
+
 hr {
   width: 70%;
+  height: 0;
   border-top: 1px solid #4dc06f;
 }
 
 a {
-    color: #6BB7CB;
+  color: #6bb7cb;
 }
 
 footer {
