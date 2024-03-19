@@ -14,58 +14,31 @@
   <body>
     <nav>
       <div class="nav__container">
-        <div class="nav__logo--wrapper">
+        <div
+          href="#"
+          class="nav__logo--wrapper"
+          onclick="window.open('./Source/sourcecode.html')"
+          style="cursor: pointer"
+        >
           <img src="./assets/logo.png" class="nav__logo" alt="" />
           <p class="nav__logo--text">Loved Pets Animal Shelter</p>
         </div>
         <ul class="nav__links">
           <li><a href="#landing" class="nav__link">Mission</a></li>
-          <li><a href="#hours" class="nav__link">Hours</a></li>
+          <li><a href="#join" class="nav__link">Volunteer</a></li>
           <li><a href="#animals" class="nav__link">Animals</a></li>
           <li>
-            <a href="#" class="nav__link nav__link--primary no-cursor">Join</a>
+            <a href="#footer" class="nav__link nav__link--primary">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
-    <!-- <section id="header">
-      <div class="header__container">
-        <ul class="header__links">
-          <li>
-            <a
-              href="https://maps.app.goo.gl/WgZMhiJTmpRuBL2v6"
-              class="header__link header__link--border"
-              target="_blank"
-              >6645 Watergrass Cir, Springfield, Arizona 11645</a
-            >
-          </li>
-          <li>
-            <a
-              href="tel:555-476-2984"
-              class="header__link header__link--border"
-              target="_blank"
-              >(555) 476-2984</a
-            >
-          </li>
-          <li>
-            <a
-              href="mailto:josie@welovepets.com"
-              class="header__link header__link--border"
-              target="_blank"
-              >josie@welovepets.com</a
-            >
-          </li>
-        </ul>
-      </div>
-    </section> -->
     <section id="landing">
       <div class="container__primary">
-        <div class="ct">
-          <h1 class="info__title">Our Mission</h1>
-        </div>
-        <div class="ct">
-          <div class="info__paras">
-            <p class="info__para">
+        <div class="container__primary--wrapper shadow transbg">
+          <h1 class="info__title transbg center">Our Mission</h1>
+          <div class="info__paras transbg">
+            <p class="info__para transbg">
               At Loved Pets Animal Rescue, we believe all animals deserve a
               chance to find a loving forever home. We provide initial
               veterinary care to rescued animals, then work to match each animal
@@ -77,7 +50,7 @@
               providing.
             </p>
             <br />
-            <p class="info__para">
+            <p class="info__para transbg">
               We can always use volunteers to help keep our shelter open!
               Volunteers are needed to bathe and groom animals, play with pets
               to help them socialize and keep them happy, clean kennels and
@@ -85,129 +58,153 @@
             </p>
           </div>
         </div>
-        <div class="image__wrapper--cocoa ct">
+        <div class="image__wrapper--primary">
           <img
-            src="./assets/animals/cocoa.jpg"
+            src="./assets/pexels-shvets-production-7533317.jpg"
             alt=""
             class="info__img shadow"
           />
-
-          <p class="image__wrapper--text">
-            <i>Meet Cocoa, a 20 week old female Chocolate Labrador.</i>
-          </p>
-          <p class="image__wrapper--sub">
-            <a href="#animals">Learn More</a>
-          </p>
         </div>
       </div>
     </section>
-    <section id="hours">
-      <div class="container__table">
-        <h1 class="hours__title">Hours of Operation</h1>
-        <table class="info__table shadow">
-          <tr>
-            <th class="table__head">Day</th>
-            <th class="table__head">Hours</th>
-          </tr>
-          <tr>
-            <td>Monday</td>
-            <td>
-              <i class="fa-regular fa-clock"></i>&nbsp;&nbsp;8:00 AM - 5:00 PM
-            </td>
-          </tr>
-          <tr>
-            <td>Tuesday</td>
-            <td>
-              <i class="fa-regular fa-clock"></i>&nbsp;&nbsp;8:00 AM - 5:00 PM
-            </td>
-          </tr>
-          <tr>
-            <td>Wednesday</td>
-            <td>
-              <i class="fa-regular fa-clock"></i>&nbsp;&nbsp;8:00 AM - 8:00 PM
-            </td>
-          </tr>
-          <tr>
-            <td>Thursday</td>
-            <td>
-              <i class="fa-regular fa-clock"></i>&nbsp;&nbsp;8:00 AM - 5:00 PM
-            </td>
-          </tr>
-          <tr>
-            <td>Friday</td>
-            <td>
-              <i class="fa-regular fa-clock"></i>&nbsp;&nbsp;8:00 AM - 12:00 PM
-            </td>
-          </tr>
-          <tr>
-            <td>Saturday</td>
-            <td>
-              <i class="fa-regular fa-clock"></i>&nbsp;&nbsp;8:00 AM - 12:00 PM
-            </td>
-          </tr>
-          <tr>
-            <td>Sunday</td>
-            <td class="red">
-              <i class="fa-solid fa-ban red"></i>&nbsp;&nbsp;Closed
-            </td>
-          </tr>
-        </table>
-      </div>
+    <section id="next">
+      <section id="join">
+        <div class="row transbg shadow">
+          <div class="join__title transbg">
+            <h1 class="transbg">How to Volunteer</h1>
+          </div>
+          <div class="join__container transbg">
+            <div class="join__paras transbg">
+              <ol class="transbg">
+                <li class="join__para transbg">
+                  Complete the online application.
+                </li>
+                <li class="join__para transbg">
+                  Submit the application by emailing it to
+                  <a href="emailto:volunteer@welovepets.com" class="transbg"
+                    >volunteer@welovepets.com</a
+                  >.
+                </li>
+                <li class="join__para transbg">
+                  Participate in a brief phone interview.
+                </li>
+                <li class="join__para transbg">
+                  Attend a volunteer training session on the first Saturday of
+                  every month.
+                </li>
+              </ol>
+            </div>
+            <div class="join__container join__container--img transbg">
+              <img
+                src="./assets/vet-nurse-services-health-beauty-region.png"
+                alt=""
+                class="transbg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="hours">
+        <div class="container__table shadow">
+          <h1 class="hours__title">Hours of Operation</h1>
+          <table class="info__table">
+            <tr>
+              <th class="table__head">Day</th>
+              <th class="table__head">Opening Hours</th>
+            </tr>
+            <tr>
+              <td>Monday</td>
+              <td>
+                <i class="fa-regular fa-clock"></i>&nbsp;&nbsp;8:00 AM - 5:00 PM
+              </td>
+            </tr>
+            <tr>
+              <td>Tuesday</td>
+              <td>
+                <i class="fa-regular fa-clock"></i>&nbsp;&nbsp;8:00 AM - 5:00 PM
+              </td>
+            </tr>
+            <tr>
+              <td>Wednesday</td>
+              <td>
+                <i class="fa-regular fa-clock"></i>&nbsp;&nbsp;8:00 AM - 8:00 PM
+              </td>
+            </tr>
+            <tr>
+              <td>Thursday</td>
+              <td>
+                <i class="fa-regular fa-clock"></i>&nbsp;&nbsp;8:00 AM - 5:00 PM
+              </td>
+            </tr>
+            <tr>
+              <td>Friday</td>
+              <td>
+                <i class="fa-regular fa-clock"></i>&nbsp;&nbsp;8:00 AM - 12:00
+                PM
+              </td>
+            </tr>
+            <tr>
+              <td>Saturday</td>
+              <td>
+                <i class="fa-regular fa-clock"></i>&nbsp;&nbsp;8:00 AM - 12:00
+                PM
+              </td>
+            </tr>
+            <tr>
+              <td>Sunday</td>
+              <td class="red">
+                <i class="fa-solid fa-ban red"></i>&nbsp;&nbsp;Closed
+              </td>
+            </tr>
+          </table>
+        </div>
+      </section>
     </section>
     <section id="animals">
-      <div class="animals__table--wrapper">
-        <h1 class="hours__title">Meet The Adoptable Animals</h1>
-        <iframe
-          class="shelterluv"
-          src="./animals.html"
-          frameborder="0"
-          scrolling="no"
-        ></iframe>
-      </div>
-    </section>
-    <section id="join">
-      <div class="row transbg shadow">
-        <div class="join__title transbg">
-          <h1 class="transbg">How to Volunteer</h1>
-        </div>
-        <div class="join__container transbg">
-          <div class="join__paras transbg">
-            <ol class="transbg">
-              <li class="join__para transbg">
-                Complete the online application.
-              </li>
-              <li class="join__para transbg">
-                Submit the application by emailing it to
-                <a href="emailto:volunteer@welovepets.com" class="transbg"
-                  >volunteer@welovepets.com</a
-                >.
-              </li>
-              <li class="join__para transbg">
-                Participate in a brief phone interview.
-              </li>
-              <li class="join__para transbg">
-                Attend a volunteer training session on the first Saturday of
-                every month.
-              </li>
-            </ol>
-          </div>
-          <div class="join__container join__container--img transbg">
-            <img
-              src="./assets/undraw_undraw_love_it_xkc2_gyie.svg"
-              alt=""
-              class="transbg"
-            />
-          </div>
+      <div class="animals__table--wrapper transbg">
+        <div class="animals__table--iframe transbg">
+          <h1 class="hours__title center">Meet The Adoptable Animals</h1>
+          <iframe
+            class="transbg"
+            src="./animals.html"
+            frameborder="0"
+            scrolling="no"
+          ></iframe>
         </div>
       </div>
     </section>
   </body>
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
+  <footer id="footer">
+    <div class="footer__container transbg">
+      <ul class="footer__links transbg">
+        <li class="transbg">
+          <a
+            href="https://maps.app.goo.gl/WgZMhiJTmpRuBL2v6"
+            class="footer__link footer__link--border transbg"
+            target="_blank"
+            >6645 Watergrass Cir, Springfield, Arizona 11645</a
+          >
+        </li>
+        <li class="transbg">
+          <a
+            href="tel:555-476-2984"
+            class="footer__link footer__link--border transbg"
+            target="_blank"
+            >(555) 476-2984</a
+          >
+        </li>
+        <li class="transbg">
+          <a
+            href="mailto:josie@welovepets.com"
+            class="footer__link footer__link--border transbg"
+            target="_blank"
+            >josie@welovepets.com</a
+          >
+        </li>
+      </ul>
+    </div>
+    <a href="#" class="footer__copyright transbg">
+      Zak Siewierski - 2024 Web Page Design
+    </a>
+  </footer>
 </html>
